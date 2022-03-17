@@ -44,6 +44,7 @@
 
                 <com.google.android.material.slider.Slider
                     android:id="@+id/rate_slider"
+                    style="@style/Widget.App.Slider"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
                     android:layout_marginStart="4dp"
@@ -65,6 +66,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_marginEnd="8dp"
+                    android:backgroundTint="?attr/colorSecondary"
                     android:insetTop="0dp"
                     android:insetBottom="0dp"
                     android:onClick="@{() -> viewModel.onRateButtonClicked()}"
